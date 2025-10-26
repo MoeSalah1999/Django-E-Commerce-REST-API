@@ -7,3 +7,5 @@ The API includes features like creating users with specific and secure user-perm
 It also includes more advanced features like filtering products by name and price, throttling to limit database hits per minute, and caching certain data with redis for a more efficient page loading and minimal database queries.
 
 I also included the prefetch_related() method for many-to-many relationships resulting in better query optimization.
+
+Authentication is done with JWT, and background tasks are handled using celery.
